@@ -10,14 +10,14 @@
 // La maison est retournée sous forme d'un Node contenant tous les sous-éléments hiérarchisés.
 
 Node* create_maison(
-    Shader* texture_shader,                // Shader utilisé pour le lampion
-    Shader* texture2_shader,              // Shader utilisé pour la maison
-    Texture* lampion_text,                // Texture du lampion
-    std::vector<Texture*> sol_textures,   // Textures pour le sol
-    std::vector<Texture*> mur_textures,   // Textures pour les murs
-    std::vector<Texture*> porte_textures, // Textures pour les portes
-    std::vector<Texture*> plafond_textures,// Textures pour le plafond
-    std::vector<Texture*> toit_textures   // Textures pour le toit
+    Shader* texture_shader,               
+    Shader* texture2_shader,              
+    Texture* lampion_text,                
+    std::vector<Texture*> sol_textures,   
+    std::vector<Texture*> mur_textures,   
+    std::vector<Texture*> porte_textures, 
+    std::vector<Texture*> plafond_textures,
+    std::vector<Texture*> toit_textures   
 ) {
     // Transformation globale de la maison (positionnée légèrement au-dessus du sol, déplacée sur Z)
     glm::mat4 maison_mat = glm::translate(glm::mat4(1.0f), glm::vec3(7.0f, -0.5f, 19.0f));
