@@ -1,27 +1,30 @@
-# Projet OpenGL – Visualisation 3D en C++
+# 🏗️ Projet OpenGL — Visualisation 3D en C++
 
-Ce projet est un squelette de base pour des applications graphiques en **OpenGL** avec **C++**, enrichi ici d’un système de **caméra libre**, de **formes 3D (pyramides, prismes)**, et de **textures**.
+Ce projet a été réalisé dans le cadre du cours *Introduction à l’Infographie*. Il s’agit d’une scène 3D interactive développée en **C++** avec **OpenGL**, intégrant des notions de **modélisation**, **texturage**, **éclairage**, ainsi qu’un système de **caméra libre**. Le projet repose sur une architecture modulaire, avec des objets 3D personnalisés comme des **pyramides**, **prismes**, **cônes**, **structures architecturales** et une **skybox** immersive.
+
+---
 
 ## 👨‍💻 Auteurs du projet
 
-Ce projet a été réalisé par :
-
-- **BRACQ Paolo**
-- **REVERET Pablo**
-- **VERDIER Gabor**
-
+- **Paolo BRACQ**
+- **Pablo REVERET**
+- **Gabor VERDIER**
 
 ### 🔧 Répartition du travail
 
-- **Paolo** : 
-  - Conception de `arche`, `statue`, `cone`, `pyramid`, `Phong_shader2`.
-  - Gestion de la caméra libre et du système de contrôle et de la Skybox
-  - Architecture générale du code
-- **Pablo** : 
-  - Création des différentes textures
-  - Conception de `maison`, `herbe`, `main`.
-- **Gabor** : 
-  - Conception de `cube`, `prism`, `temple`.
+| Membre  | Contributions principales |
+|---------|---------------------------|
+| **Paolo**  | Caméra libre, contrôles utilisateur, `arche`, `statue`, `cone`, `pyramid`, `Phong_shader2`, architecture générale du projet, Skybox |
+| **Pablo**  | Création des textures, modélisation de `maison`, `herbe`, `main` |
+| **Gabor**  | Développement de `cube`, `prism`, `temple` |
+
+---
+
+## 📝 Description du projet
+
+L’objectif était de concevoir une **scène 3D originale**, en utilisant les concepts vus en cours : modélisation avec sommets, normales et indices, **texturage multi-face**, **gestion des lumières avec un shader Phong**, et **navigation libre dans l’espace 3D**.  
+Le projet a été pensé comme une petite "ville" abstraite avec une ambiance japonaise.
+
 ---
 
 ## 🛠️ Installation
