@@ -34,6 +34,10 @@
 #error "TEXTURE_DIR not defined"
 #endif
 
+// -----------------------------------------------------------------------
+// Ce projet a été réalisé par BRACQ Paolo, REVERET Pablo et VERDIER Gabor
+// -----------------------------------------------------------------------
+
 int main()
 {
     // Créer le viewer (fenêtre + boucle de rendu)
